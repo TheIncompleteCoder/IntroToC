@@ -1,4 +1,6 @@
-	***        ********  **       *          * * * *     **      *  * * * * *                                        
+/*
+
+     	***        ********  **       *          * * * *     **      *  * * * * *                                        
         ***             *      * *      *        *         *   * *     *  *                      
        **               *      *  *     *       *           *  *  *    *  *           
        **        ***    *      *   *    *       *           *  *   *   *  * * * * *            
@@ -14,7 +16,7 @@
           *              *       *          *
           *           ********   *********  ********
 
-
+*/
 
 
 /*
@@ -51,7 +53,7 @@ structure of C_PROGRAM ::
  (7)  header file inclusion.
 */
 --------------------------------------------------------------------------------------------------------------
-//include required header file,which contains....
+//include required header file,which contains function's prototype and compiled code are in 'lib'....
 #include <requiredHeaderFile.h>
 /*
 *****/Some standard header file's/******
@@ -159,8 +161,12 @@ structure of C_PROGRAM ::
 	float marks;
 	char address[50];
 	};
-	
-int main(int argc,char *argv[]) 
+
+void
+allChoices();//user defind function
+
+int 
+main(int argc,char *argv[]) 
 {// function body start
 	int integerAsLocalVariable; // it means we instruct (_Operating System || request the operating system_) through compiler,to get 32 bit continuous bits of memory.(depending on system architecture)
 	char characterAsLocalVariable; // it means we instruct (_Operating System || request the operating system_) through compiler,to get 1 bit of memory.(depending on system architecture)
@@ -169,7 +175,7 @@ int main(int argc,char *argv[])
 	float floatAsLocalVariable;// it means we instruct (_Operating System || request the operating system_) through compiler,to get 32 bit continuous bits of memory.(depending on system architecture)
 	short shortAsLocalVariable; // it means we instruct (_Operating System || request the operating system_) through compiler,to get 32 bit continuous bits of memory.(depending on system architecture)
 
-printf("This is how c-programming language standards\n");
+printf("This is c-programming language standards\n");
 
 // conditional statement 
 if(conditon_true){ 
@@ -177,6 +183,66 @@ if(conditon_true){
 }else{
 	printf("else condition executed");
  }
-
+ int choice;
+ printf("Enter your choices..b\w all numbers.\n");
+ allChoices();
+ scanf("%d",&choice);
+ //switch use
+ switch(choice)
+ {
+ 	case 1:
+ 	printf("you like c");
+ 	break;
+ 	case 2:
+ 	printf("you like c++");
+ 	break;
+ 	case 3:
+ 	printf("you like java");
+ 	break;
+ 	case 4:
+ 	printf("you like python");
+ 	break;
+ 	case 5:
+ 	printf("you like ruby");
+ 	break;
+	default:
+	printf("i think you don't like them all.\n");
+ }
+ 
+ for(int intializeNumber = 0; intializeNumber < someCondition; intializeNumber++){
+ 	//runs until condtions become false.
+ 	printf("for loop runs.\n");
+ }
+ 
+ int intializeNumber = 0;  
+ while (intializeNumber < someCondition){
+ printf("while loop runs");
+ intializeNumber++;
+ }
+ 
+ do{
+ printf("do-while run at least 1 time.");
+ //then according to condition.
+ }while(intializeNumber < someCondition);
+ 
 return _value_according_to_function_data_type;
 }//funtion body ends
+
+void
+allChoices()
+{
+ print("1. c\n");
+ print("2. c++\n");
+ print("3. java\n");
+ print("4. python\n");
+ print("5. ruby\n");
+ }
+
+/*
+########################################
+_Concept By :-Akash Nagwanshi
+_email 	 :- akashnagwanshi@gmail.com
+########################################
+*/
+
+//to use this file comment-uncomment appropriate portion.
