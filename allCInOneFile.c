@@ -160,10 +160,13 @@ structure of C_PROGRAM ::
 	int age;
 	float marks;
 	char address[50];
-	};
+	}Node;
 
-void
-allChoices();//user defind function
+int
+allChoices(void);//user defind function of type void
+
+int 
+addInfoToNode(Node *);//user defind function of type Node*
 
 int 
 main(int argc,char *argv[]) 
@@ -174,7 +177,7 @@ main(int argc,char *argv[])
 	double doubleAsLocalVariable; // it means we instruct (_Operating System || request the operating system_) through compiler,to get 32 bit continuous bits of memory.(depending on system architecture)
 	float floatAsLocalVariable;// it means we instruct (_Operating System || request the operating system_) through compiler,to get 32 bit continuous bits of memory.(depending on system architecture)
 	short shortAsLocalVariable; // it means we instruct (_Operating System || request the operating system_) through compiler,to get 32 bit continuous bits of memory.(depending on system architecture)
-
+        
 printf("This is c-programming language standards\n");
 
 // conditional statement 
@@ -185,7 +188,7 @@ if(conditon_true){
  }
  int choice;
  printf("Enter your choices..b\w all numbers.\n");
- allChoices();
+ choice = allChoices();
  scanf("%d",&choice);
  //switch use
  switch(choice)
@@ -228,9 +231,18 @@ if(conditon_true){
 return _value_according_to_function_data_type;
 }//funtion body ends
 
+int 
+addInfoToNode(Node *temp){
+	Node myNode* = (Node*)malloc(Node);
+	myNode->rollNumber = 256;
+	myNode->name = "xxxxxxxxxx";
+	myNode->surname = "yyyyyyyyy";
+	myNode->marks = 86.8;
+	myNode->address = "xyxyxyxyxyxy";
+}
+
 void
-allChoices()
-{
+allChoices(){
  print("1. c\n");
  print("2. c++\n");
  print("3. java\n");
