@@ -212,11 +212,14 @@ if(conditon_true){
 	printf("i think you don't like them all.\n");
  }
  
+ 
+ // for-loop
  for(int intializeNumber = 0; intializeNumber < someCondition; intializeNumber++){
  	//runs until condtions become false.
  	printf("for loop runs.\n");
  }
  
+ //while-loop
  int intializeNumber = 0;  
  while (intializeNumber < someCondition){
  printf("while loop runs");
