@@ -59,7 +59,7 @@ structure of C_PROGRAM ::
 *****/Some standard header file's/******
 1. <stdio.h> //standard input/output
      '--> some usefull function's
-     |--> printf("foramt_identifer",); // for printing on VDU.
+     |--> printf("foramt_identifer",variables(separated by ,)); // for printing on VDU.
      |--> scanf(""); //for accepting input from the keyboard
      |--> 
      |-->
