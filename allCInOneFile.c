@@ -23,7 +23,7 @@
 author : dennis ritchie && ken thompson at AT&T 
 year : 1978
 origin : for unix operating system{originally create for writing compilers and operating system}
-level : low level system programming language 
+level : high level system programming language 
 */
 --------------------------------------------------------------------------------------------------------
 /*
@@ -44,7 +44,7 @@ structure of C_PROGRAM ::
  }
  
  Meaning of above daclaration :
- (1) it define's what is the function type,  
+ (1) it define's, what is the function type,  
  (2)  what is the function name
  (3)  what arguments,function is accepting
  (4)  block,body of the function.all variables declared in the function are local to that function.visible to that function only.
