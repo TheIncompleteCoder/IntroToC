@@ -38,7 +38,7 @@ void waitFun()
  char temp[50];
   printf("okkyyyy....\n ");
   myDelay(1000);
-  printf("let me ask some quetions...based on which we decide you have your fovourite gadget <EGo> or not!!!!!!\n");
+  printf("%slet me ask some quetions...based on which we decide you have your fovourite gadget <EGo> or not!!!!!!\n",gray);
   
   
   printf("ummmmm...\n");
@@ -77,7 +77,7 @@ void waitFun()
   printf("%s11. nanhi didi kisi fight-club ki member hai... %s\n", red, gray);
   scanf("%s",&temp);
  
-   printf("%s12. Aditi ko bollywood gano ki dhun pasand hai ya EGO ki awazzzzz... %s\n", red, gray,magenta,black);
+   printf("%s12. Kya traffic lights ke %sred hone par aapki AKAD hurt hoti hai  %s\n", red,red, gray,magenta,black);
   scanf("%s",&temp);
  
   printf("%s13. Kya aapke EGO me namak hai... %s\n", red, gray,magenta,black);
@@ -151,11 +151,20 @@ void waitFun()
   scanf("%s",&temp);
  
 
+  printf("%s9. Jab koi Stranger aapko Whatsapp karta hai aap kese respond karti hai..., %s\n", red, none);
+  printf("%s9.1 Akad dikhake\n", green);
+  printf("%s9.2 Ego dikhake \n", green);
+  printf("%s9.3 Egoist ban ke  \n", green);
+  printf("%s9.4 All of the above..... \n", green);
+  scanf("%s",&temp);
+ 
+
 
  printf("\nokay......just wait....\n");
  myDelay();
  printf("%sbased on your answers....we concluded that\n",red);
  printf("%saap me EGO nahi he",gray);
+ myDelay();
  myDelay();
  printf("%sBalki bahut EGo hai",green); 
  
