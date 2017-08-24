@@ -190,6 +190,15 @@ int
 main(void)
 {
    char ch[50];
+   printf("%sWElcome to world of <TRUTh>...\n%s",blue,none);
+   printf("%sCONGRATULATIONS ",red);
+   
+   printf("########################################\n");
+   printf("########################################\n");
+   printf("#####__ADITI__KI__EGO_Ki_<PARIKSHA>__#####\n");
+   printf("########################################\n");
+   printf("########################################\n");
+   
    printf("Aditi{nanhi didi} me ego he ki nahi yes|no.....\n");
   
     scanf("%s",&ch);
