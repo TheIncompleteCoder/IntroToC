@@ -163,10 +163,10 @@ void waitFun()
  printf("\nokay......just wait....\n");
  myDelay();
  printf("%sbased on your answers....we concluded that\n",red);
- printf("%saap me EGO nahi he",gray);
+ printf("%saap me EGO nahi he\n",gray);
  myDelay();
  myDelay();
- printf("%sBalki bahut EGo hai",green); 
+ printf("%sBalki bahut EGo hai\n",green); 
  
  
  printf("\nBy : \n%sAkash Nagwanshi - bhen tujhme itni kis bat ki AKAD hai...\n%sDevansh joshi\n%sRupendra Pratap Singh Hada\n%sShrutika Chauhan\n",gray,red,magenta,blue);
