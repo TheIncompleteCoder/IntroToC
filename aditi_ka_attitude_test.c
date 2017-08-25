@@ -169,9 +169,15 @@ void waitFun()
  printf("%sBalki bahut EGo hai\n",green); 
  
  
- printf("\nBy : \n%sAkash Nagwanshi - bhen tujhme itni kis bat ki AKAD hai...\n%sDevansh joshi\n%sRupendra Pratap Singh Hada\n%sShrutika Chauhan\n",gray,red,magenta,blue);
- 
-  }
+ printf("\nBy : \n%sAkash Nagwanshi - bhen tujhme itni kis bat ki AKAD hai...\n%sDevansh joshi:- nanhi didi ko kuch bolne ka dum nahi mujhme ...Itna EGO mujhe bohot...bohot bimmar kar sakta hai\n%sRupendra Pratap Singh Hada  \n%sShrutika Chauhan :  \n",gray,red,magenta,blue);
+ printf("##############\n");
+ printf("##############\n");
+ printf("%s###__ADITI_DOHA__####\n",red);
+ printf("##############\n");
+ printf("##############\n");
+  printf("%s<karat karat abhyas ke,hota EGO mahan..>\n",gray);
+ print(""); 
+ }
   
   
    
