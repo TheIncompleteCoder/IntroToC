@@ -169,7 +169,7 @@ void waitFun()
  printf("%sBalki bahut EGo hai",green); 
  
  
- printf("\nBy : \n%sShrutika Chouhan\n%sDevansh joshi\n%sRupendra Pratap Singh Hada\n%sAkash Nagwanshi\n",gray,red,magenta,blue);
+ printf("\nBy : \n%sAkash Nagwanshi - bhen tujhme itni kis bat ki AKAD hai...\n%sDevansh joshi\n%sRupendra Pratap Singh Hada\n%sShrutika Chauhan\n",gray,red,magenta,blue);
  
   }
   
